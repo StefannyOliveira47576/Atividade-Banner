@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cabecalho{
+    padding: 1em;
+    background-color: #566981;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#menu{
+    padding: 5rem;
+    justify-content: center;
+}
+
+#menu li{
+    display: inline;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#menu li a{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#menu li a:hover{
+   color: #cbdad5;
+   transition: 0.9s;
+}
+
+.metal-01{
+    background-image: url(imagem/Banner\ -\ 01.png);
+    padding: 24rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao-texto{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding: 10rem;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+.metal-02{
+    background-image: url(imagem/Banner\ -\ 02.png);
+    padding: 24rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
