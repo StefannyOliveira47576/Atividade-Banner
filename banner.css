@@ -72,3 +72,18 @@
     justify-content: center;
     text-align: center;
 }
+
+.rodape{
+    background-color: #566981; 
+    color: white; 
+    justify-content: space-evenly; 
+     align-items: center; 
+     padding: 2em; 
+     flex-wrap: wrap; 
+     display: flex;
+}
+
+.lista{
+    padding: 2em;
+   
+}
