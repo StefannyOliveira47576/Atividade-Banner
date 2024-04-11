@@ -77,13 +77,29 @@
     background-color: #566981; 
     color: white; 
     justify-content: space-evenly; 
-     align-items: center; 
-     padding: 2em; 
-     flex-wrap: wrap; 
-     display: flex;
+    padding: 2em; 
+    flex-wrap: wrap; 
+    display: flex;
+    font-size: 25px;
 }
 
 .lista{
     padding: 2em;
-   
+    display: flex;
+}
+
+.lista li{
+    margin-left: 20px;
+}
+
+.lista li a{
+    color: white;
+    padding: 1rem;
+    align-items: end;
+    cursor: pointer;
+}
+
+.lista li a:hover {
+    color: #cbdad5;; 
+    transition: 0.8s;
 }
